@@ -1,4 +1,4 @@
-.A {
+x.A {
     color: rgb(30, 0, 255);
 
 }
@@ -20,5 +20,9 @@
 }
 
 .Abuneol:active {
-    box-shadow: 5px 5px 5px rgb(55, 7, 7);
+    box-shadow: 5px 5px 5px rgb(31, 2, 2);
+}
+
+#C {
+    color:red
 }
