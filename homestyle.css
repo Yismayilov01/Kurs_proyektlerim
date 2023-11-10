@@ -1,0 +1,238 @@
+/* butun hisse */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 37px;
+    color: #777;
+    background: url("concrete_seamless.png");
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* ust hisse*/
+  
+  .container {
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 18px;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #63dbd5;
+  }
+  
+  h1 {
+    padding-bottom: 18px;
+    font-size: 33px;
+    line-height: 50px;
+    border-bottom: 3px solid #ddd;
+  }
+  
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+  
+  /* Basliq */
+  
+  #Header {
+    position: fixed;
+    z-index: 5555;
+    width: 100%;
+    margin: 0 0 30px;
+    color: #fff;
+    background: #fff;
+    border-bottom: 3px solid #ccc;
+  }
+  
+  #Name {
+    float: left;
+    width: 240px;
+    height: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 750;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 22px;
+  }
+  
+  nav a{
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: gray;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
+ 
+  
+  /* Sitelar */
+  
+  .aside {
+    float: right;
+    width: 260px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  h3,
+  .aside h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .Urls {
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+  
+  .Urls:last-child {
+    margin-right: 0;
+  }
+  
+  /* esas */
+  
+  #main{
+    padding-top: 140px;
+  }
+  
+  .section {
+    float: left;
+    width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  /* portfolio */
+  
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 30px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 1;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #67cac5;
+    border-bottom: 0;
+  }
+  
+  .image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 13px;
+    margin-right: 20px;
+  }
+  
+  /* contact */
+  
+  #form ul {
+    margin-bottom: 20px;
+  }
+  
+  #form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+
+   
+  footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background: grey;
+    border-top: 9px solid #41aba6;
+  }
+  
+  /* axirki bitdi :) */
